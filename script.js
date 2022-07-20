@@ -2,7 +2,7 @@ function adicionar(){
     document.getElementById("texto").value
     document.getElementById("lista").innerHTML;
 
-    if (document.getElementById('texto').value==''){
+    if (document.getElementById('texto').value.trim()==''){
         alert('Preencha o campo, otário!')
         document.getElementById('texto').focus()
         return false
