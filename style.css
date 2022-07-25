@@ -9,6 +9,7 @@
 
 body, button, input{
     font-family: sans-serif;
+    background-color: rgb(168, 190, 88);
 }
 
 .content{
