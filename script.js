@@ -26,6 +26,7 @@ function mostraTarefas() {
         elementoTarefa.appendChild(textoTarefa)
         elementoLista.appendChild(elementoTarefa)
         elementoTarefa.appendChild(elementoLink)
+        document.getElementById('texto').focus()
     }
 }
 
