@@ -32,7 +32,7 @@ function mostraTarefas() {
 
 mostraTarefas()
 
-function addTarefa() {
+function addTarefa(){
 
     if (document.getElementById('texto').value.trim() == '') {
         alert('Preencha o campo, troxão!')
@@ -44,7 +44,7 @@ function addTarefa() {
     salvarnolocalstorage()
     mostraTarefas()
     event.preventDefault()
-
+    
 }
 
 elementoBotao.setAttribute('onclick', 'addTarefa()')
@@ -62,13 +62,13 @@ function salvarnolocalstorage() {
 
 
 
-//adicionar com ENTER '-'
-//limitador de campo
+//adicionar com ENTER - ok
+//limitador de campo- ok
 //permitir marcar o item
 //editar item
 //adicionar quantidade
-//excluir item '-'
-//não permitir adicionar campo vazio '-'
-// event.preventDefault() --para não enviar formulário
-//imlementar sort - ordenar 
+//excluir item - ok
+//não permitir adicionar campo vazio- ok
+// event.preventDefault() - para não enviar formulário
+//implementar sort - ordenar 
 // preventdefault para nao enviar o form

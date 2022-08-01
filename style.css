@@ -56,6 +56,8 @@ h1{
 }
 
 ul{
+    display: flex;
+    flex-direction: column-reverse;
     margin-top: 16px;
 }
 
@@ -75,4 +77,23 @@ a{
     color: tomato;
     cursor: pointer;
     
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+@media (max-width: 775px){
+    input{
+        width:70%;
+    }
+    .div1 button{
+        width: 30%;
+    }
+    i {
+        font-size: 30px;
+        padding: 0px;
+    }
+    p {
+        font-size: x-large;
+    }
 }
